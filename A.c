@@ -1,4 +1,6 @@
-Q.1) Write a C program to find file properties such as inode number, number of hard link, File permissions, File size, File access and modification time and so on of a given file using stat() system call.
+ /*Q.1) Write a C program to find file properties such as inode number,
+  number of hard link, File permissions, File size, File access and modification time 
+  and so on of a given file using stat() system call. */
 
 #include <stdio.h>
 #include <sys/types.h>
@@ -25,6 +27,11 @@ int main() {
     return 0;
 }
 
+ /*How To Run
+--->  cc slip.c
+---> ./a.out
+--->  gcc slip.c -o slip
+---> ./slip slip.c
 
 Output:
 Inode number: 123456
@@ -33,6 +40,6 @@ File size: 1024 bytes
 File permissions: 644
 Last accessed: Thu Nov 11 10:30:00 2024
 Last modified: Thu Nov 11 10:00:00 2024
-Last status change: Thu Nov 11 09:00:00 2024
+Last status change: Thu Nov 11 09:00:00 2024 */
 
 
